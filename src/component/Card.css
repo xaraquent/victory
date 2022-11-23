@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    margin: 100px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.header {
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.body-text {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+.cta {
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1200ms;
+}
+
+.cta button {
+    border: none;
+    background: transparent;
+    display: flex;
+    cursor: pointer;
+}
+
+.cta:hover {
+    box-shadow: hsl(150, 100%, 66%) 0px 0px 25px 0px;
+    transform: translateY(50%) rotate(360deg);
+}
